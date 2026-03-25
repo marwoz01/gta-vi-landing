@@ -225,6 +225,16 @@ main {
   .final-message {
     @apply absolute w-full h-dvh overflow-hidden z-50 opacity-100;
   }
+  .story-description {
+    @apply w-full h-dvh md:px-40 px-10 flex flex-col justify-center;
+
+    .story-title {
+      @apply font-round-bold !font-extrabold md:text-7xl text-5xl mb-10 bg-clip-text text-transparent;
+    }
+    .story-text {
+      @apply font-round-bold !font-bold md:text-4xl text-2xl md:leading-[3.2rem] leading-[2.2rem] max-w-6xl bg-clip-text text-transparent;
+    }
+  }
 }
 
 .black-gradient-bg {
@@ -274,4 +284,10 @@ main {
 
 .lucia-life-content {
   background: radial-gradient(ellipse, #111117 20%, transparent 70%);
+}
+
+.story-description {
+  background-image: linear-gradient(to bottom, #cc358c, #f5a382);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
