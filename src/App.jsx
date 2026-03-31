@@ -6,6 +6,7 @@ import NavBar from "./sections/NavBar";
 import StoryDescription from "./sections/StoryDescription";
 import FirstVideo from "./sections/FirstVideo";
 import Jason from "./sections/Jason";
+import SecondVideo from "./sections/SecondVideo";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,6 +18,7 @@ const App = () => {
       <StoryDescription />
       <FirstVideo />
       <Jason />
+      <SecondVideo />
     </main>
   );
 };
